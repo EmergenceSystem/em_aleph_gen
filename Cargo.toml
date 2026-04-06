@@ -8,7 +8,7 @@ repository   = "https://github.com/EmergenceSystem/em_aleph_gen"
 
 [dependencies]
 em_filter          = "0.2"
-alegen             = { git = "https://github.com/aleph-lang/alegen" }
+alegen    = "0.1"
 aleph-syntax-tree  = "0.1"
 tokio              = { version = "1", features = ["full"] }
 serde_json         = "1"
