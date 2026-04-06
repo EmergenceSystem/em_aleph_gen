@@ -1,0 +1,16 @@
+[package]
+name         = "em_aleph_gen"
+version      = "0.1.0"
+edition      = "2021"
+description  = "Emergence agent — Aleph code generator (consumes AlephTree)"
+license-file = "LICENSE"
+repository   = "https://github.com/EmergenceSystem/em_aleph_gen"
+
+[dependencies]
+em_filter          = "0.2"
+alegen             = { git = "https://github.com/aleph-lang/alegen" }
+aleph-syntax-tree  = "0.1"
+tokio              = { version = "1", features = ["full"] }
+serde_json         = "1"
+tracing            = "0.1"
+tracing-subscriber = "0.3"
